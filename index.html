@@ -1,0 +1,53 @@
+<!doctype html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>:: To Do ::</title>
+    <link rel="stylesheet" href="styles/reset.css">
+    <link rel="stylesheet" href="styles/main.css">
+    <link rel="stylesheet" href="https://cdn.linearicons.com/free/1.0.0/icon-font.min.css">
+</head>
+<body>
+  
+  <div id="paper">
+    <div id="margin-line"></div>
+    <h1>To Do</h1>
+    <div id="main-list">
+      <ul id="ul-list">
+        <li class="row">
+          <div class="boxes">
+            <div class="item">
+              <input type="checkbox" id="box-1">
+              <label for="box-1">Walk the dog</label>
+            </div>
+            <div class="pencil button">
+              <span class="lnr lnr-pencil"></span> 
+              <span class="edit tool-tip">Edit</span>
+            </div>
+          </div>
+        </li>
+        <li>
+          <form class="new-item">
+          <input type="text" name="new-item" placeholder="Add a task"
+                 maxlength=25>
+          </form>
+        </li>
+      </ul>
+    </div>
+    <div class="trash button">
+    <span class="lnr lnr-trash"></span> 
+    <span class="delete tool-tip">Delete Completed Tasks</span>
+    </div>
+  </div>
+
+  <footer>Made with &#9829; by 
+    <a href="http://lydiajanefrancis.com">Lydia Francis</a>                     
+  </footer>
+  
+  <script src="scripts/jquery.min.js"></script>
+  <script src="scripts/app.js"></script>
+
+  
+</body>  
+</html>
