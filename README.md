@@ -1,4 +1,4 @@
 # TODO
 Handy to-do list application
 
-View via GitHub Pages [HERE](http://ljfrancis.github.io/to-do)
+View via GitHub Pages [HERE](https://ljfrancis.github.io/to-do/)
